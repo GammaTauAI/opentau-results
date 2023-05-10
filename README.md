@@ -2,7 +2,7 @@
 
 Link to the main repository: https://github.com/GammaTauAI/opentau
 
-### Results table
+## Results table
 
 | Config                                         | Percent Typecheck   | Avg Heuristic | Avg errors |
 | ---------------------------------------------- | ------------------- | ------------- | ---------- |
@@ -14,10 +14,12 @@ Link to the main repository: https://github.com/GammaTauAI/opentau
 | Santacoder FIT FT - Tree with usages - 2048    | **353/744 (47.4%)** | **154.6**     | 6.3        |
 | Santacoder FIT FT - Tree without usages - 2048 | 274/744 (36.8%)     | 168.4         | **5.6**    |
 
-Metrics in bold are the best ones.
+#### Notes about the results
 
-**NOTE:** FIT FT means that the model was fine-tuned for _Fill-In-the-Type_, for more
-information about the technique, please refer to the repository: https://github.com/GammaTauAI/antacoder-finetuning
-
-**NOTE:** TS FT means that the model was fine-tuned for TypeScript code generation, **NOT** for _Fill-In-the-Type_ (FIT)
-or Fill-In-the-Middle (FIM).
+- Metrics in **bold** are the best results for each column.
+- FIT FT means that the model was fine-tuned for _Fill-In-the-Type_, for more
+  information about the technique, please refer to the repository: https://github.com/GammaTauAI/santacoder-finetuning
+- TS FT means that the model was fine-tuned for TypeScript code generation, **NOT** for _Fill-In-the-Type_ (FIT)
+  or Fill-In-the-Middle (FIM).
+- The numbers at the end (e.g. 2048, 1024, 512) are the maximum number of characters for the context window
+  when running inference with the model.
