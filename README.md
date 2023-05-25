@@ -2,6 +2,8 @@
 
 Link to the main repository: https://github.com/GammaTauAI/opentau
 
+Link to the dataset used for evaluation: https://huggingface.co/datasets/nuprl/ts-eval
+
 ## 744-dataset Results table
 
 | Configuration                              | Percent Typecheck   | Avg Heuristic | Avg type errors |
